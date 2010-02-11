@@ -21,5 +21,6 @@ lexer.ml: lexer.mll
 
 clean:
 	rm -f *.cmi *.cmo
+	rm -f lexer.ml parser.ml parser.mli
 
 .PHONY: clean
